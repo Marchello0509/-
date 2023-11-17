@@ -164,17 +164,17 @@ body {
   line-height: normal;
   margin-left: 6px;
 }
-.main_block2_forbl {
+.main_block2_forb {
   display: flex;
   justify-content: center;
 }
-.main_block2_forbl_bl {
+.main_block2_forb_forbl_bl {
   width: 316px;
   height: 100px;
   border-radius: 2px;
   background: #12A921;
 }
-.main_block2_forbl_bl_svg {
+.main_block2_forb_forbl_bl_svg {
   display: flex;
   position: absolute;
   margin-left: 285px;
@@ -183,7 +183,7 @@ body {
   background: none;
   cursor: pointer;
 }
-.main_block2_forbl_bl_p1 {
+.main_block2_forb_forbl_bl_p1 {
   color: #FFF;
   font-family: Overpass Mono;
   font-size: 15px;
@@ -193,7 +193,7 @@ body {
   margin-top: 6px;
   margin-left: 6px;
 }
-.main_block2_forbl_bl_p2 {
+.main_block2_forb_forbl_bl_p2 {
   color: #FFF;
   font-family: Overpass Mono;
   font-size: 15px;
@@ -203,7 +203,7 @@ body {
   margin-top: 3px;
   margin-left: 6px;
 }
-.main_block2_forbl_bl_p3 {
+.main_block2_forb_forbl_bl_p3 {
   color: #FFF;
   font-family: Overpass Mono;
   font-size: 15px;
@@ -213,7 +213,66 @@ body {
   margin-top: 3px;
   margin-left: 6px;
 }
-.main_block2_forbl_bl_p4 {
+.main_block2_forb_forbl_bl_p4 {
+  color: #FFF;
+  font-family: Overpass Mono;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 3px;
+  margin-left: 6px;
+}
+.main_block2_forb2 {
+  display: flex;
+  justify-content: center;
+}
+.main_block2_forb2_forbl_bl {
+  width: 316px;
+  height: 100px;
+  border-radius: 2px;
+  background: #BE1111;
+}
+.main_block2_forb2_forbl_bl_svg {
+  display: flex;
+  position: absolute;
+  margin-left: 285px;
+  margin-top: 5px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+.main_block2_forb2_forbl_bl_p1 {
+  color: #FFF;
+  font-family: Overpass Mono;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 6px;
+  margin-left: 6px;
+}
+.main_block2_forb2_forbl_bl_p2 {
+  color: #FFF;
+  font-family: Overpass Mono;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 3px;
+  margin-left: 6px;
+}
+.main_block2_forb2_forbl_bl_p3 {
+  color: #FFF;
+  font-family: Overpass Mono;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 3px;
+  margin-left: 6px;
+}
+.main_block2_forb2_forbl_bl_p4 {
   color: #FFF;
   font-family: Overpass Mono;
   font-size: 15px;

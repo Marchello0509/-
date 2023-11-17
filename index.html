@@ -42,32 +42,24 @@
                     <p class="main_block1_forinputs_inputs_p1">Name list:</p>
                     <input id="inpName" class="main_block1_forinputs_inputs_input1" type="text" placeholder="Name list">
                     <p class="main_block1_forinputs_inputs_p2">Sum:</p>
-                    <input id="inpName" class="main_block1_forinputs_inputs_input2" type="text" placeholder="Sum:">
+                    <input id="inpSum" class="main_block1_forinputs_inputs_input2" type="text" placeholder="Sum">
                 </div>
             </div>
             <div class="main_block1_forbtns1">
-                <button class="main_block1_forbtns1_btn1">Replenishment</button>
+                <button id="btnAdd" class="main_block1_forbtns1_btn1">Replenishment</button>
             </div>
             <div class="main_block1_forbtns2">
-                <button class="main_block1_forbtns2_btn2">lesion</button>
+                <button id="btnDel" class="main_block1_forbtns2_btn2">lesion</button>
             </div>
         </div>
         <div class="main_block2">
             <p class="main_block2_p1">Total sum:</p>
-            <p class="main_block2_sum">0</p>
-            <div class="main_block2_forbl">
-                <div class="main_block2_forbl_bl">
-                    <button class="main_block2_forbl_bl_svg">
-                        <svg  xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                            <path d="M1 1L19 19" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M1 19L19 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>  
-                    </button>  
-                    <p class="main_block2_forbl_bl_p1">Name list:</p>        
-                    <p class="main_block2_forbl_bl_p2">Example</p>  
-                    <p class="main_block2_forbl_bl_p3">Sum:</p>  
-                    <p class="main_block2_forbl_bl_p4">1000</p> 
-                </div>
+            <p id="sumEl"  class="main_block2_sum">0</p>
+            <div class="main_block2_forb">
+                <div id="forbl" class="main_block2_forb_forbl"></div>
+            </div>
+            <div class="main_block2_forb2">
+                <div id="forbl2" class="main_block2_forb2_forbl"></div>
             </div>
         </div>
     </main>
