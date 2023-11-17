@@ -1,0 +1,229 @@
+@mixin FlexElement($justify, $align) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+@mixin ForBlocks ($justify) {
+    display: flex;
+    justify-content: $justify;
+}
+
+body {
+    background: linear-gradient(117deg, #0FF 0%, #0029FF 50%, #BD01FF 99.99%, #7000FF 100%);  
+    height: 100vh;
+}
+
+.main {
+    @include FlexElement(center,center);
+    height: 100vh;
+    column-gap: 46px;
+    &_block1 {
+        width: 350px;
+        height: 290px;       
+        border-radius: 5px;
+        background: #000;
+        &_logo {
+            display: flex;
+            margin-top: 7px;
+            margin-left: 5px;
+            &_texts {
+                margin-left: 2px;
+                &_p1 {
+                    color: #FFF;
+                    font-family: Overpass Mono;
+                    font-size: 11px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;             
+                }
+                &_p2 {
+                    color: #FFF;
+                    font-family: Overpass Mono;
+                    font-size: 30px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;             
+                }
+            }
+        }
+        &_forinputs {
+            @include ForBlocks(center);
+            &_inputs {
+                margin-top: 18px;
+                &_p1 {
+                    color: #FFF;
+                    font-family: Overpass Mono;
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                }
+                &_input1 {
+                    width: 278px;
+                    height: 24px;        
+                    border-radius: 2px;
+                    background: #FFF;
+                    font-family: Overpass Mono;
+                    font-size: 13px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;    
+                    border: none;   
+                    margin-top: 6px;
+                }
+                &_p2 {
+                    color: #FFF;
+                    font-family: Overpass Mono;
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    margin-top: 5px;
+                }
+                &_input2 {
+                    width: 278px;
+                    height: 24px;        
+                    border-radius: 2px;
+                    background: #FFF;
+                    font-family: Overpass Mono;
+                    font-size: 13px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;    
+                    border: none;   
+                    margin-top: 6px;
+                }
+            }
+        }
+        &_forbtns1 {
+            @include ForBlocks(center);
+            &_btn1 {
+                width: 282px;
+                height: 31px;       
+                border-radius: 2px;  
+                color: #FFF;
+                font-family: Overpass Mono;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                background: #949494;
+                border: none;
+                cursor: pointer;
+                transition-duration: 0.6s;
+                margin-top: 10px;
+                &:hover {
+                    transition-duration: 0.6s;
+                    background: #12A921;          
+                }
+            }
+        }
+        &_forbtns2 {
+            @include ForBlocks(center);
+            &_btn2 {
+                width: 282px;
+                height: 31px;       
+                border-radius: 2px;  
+                color: #FFF;
+                font-family: Overpass Mono;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                background: #949494;
+                border: none;
+                cursor: pointer;
+                transition-duration: 0.6s;
+                margin-top: 15px;
+                &:hover {
+                    transition-duration: 0.6s;
+                    background: #BE1111;         
+                }
+            }
+        }
+    }
+    &_block2 {
+        width: 350px;
+        height: 579px;     
+        border-radius: 2px;
+        background: #000; 
+        &_p1 {
+            color: #FFF;
+            font-family: Overpass Mono;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            margin-top: 6px;
+            margin-left: 6px;
+        }
+        &_sum {
+            color: #FFF;
+            font-family: Overpass Mono;
+            font-size: 45px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            margin-left: 6px;
+        }
+        &_forbl {
+            @include ForBlocks(center);
+            &_bl {
+                width: 316px;
+                height: 100px;     
+                border-radius: 2px;
+                background: #12A921;    
+                &_svg {
+                    display: flex;
+                    position: absolute;
+                    margin-left: 285px;
+                    margin-top: 5px;
+                    border: none;
+                    background: none;
+                    cursor: pointer;
+                }
+                &_p1 {
+                    color: #FFF;
+                    font-family: Overpass Mono;
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;  
+                    margin-top: 6px;
+                    margin-left: 6px;        
+                }
+                &_p2 {
+                    color: #FFF;
+                    font-family: Overpass Mono;
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;  
+                    margin-top: 3px;
+                    margin-left: 6px;        
+                }
+                &_p3 {
+                    color: #FFF;
+                    font-family: Overpass Mono;
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;  
+                    margin-top: 3px;
+                    margin-left: 6px;        
+                }
+                &_p4 {
+                    color: #FFF;
+                    font-family: Overpass Mono;
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;  
+                    margin-top: 3px;
+                    margin-left: 6px;        
+                }
+            }
+        }
+    }
+}
