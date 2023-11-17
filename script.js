@@ -35,9 +35,8 @@ htmlEl.btnAdd.addEventListener('click', () => {
 
     htmlEl.forbl.appendChild(newBlock)
 
-    htmlEl.sumEl.innerHTML = `
-        ${Number(totalSum) + Number(inpSum)}
-    `
+    totalSum += inpSum
+    htmlEl.sumEl.innerHTML = `${totalSum}`
 })
 
 htmlEl.btnDel.addEventListener('click', () => {
@@ -64,5 +63,6 @@ htmlEl.btnDel.addEventListener('click', () => {
 
     htmlEl.forbl2.appendChild(newBlock)
 
-    
+    totalSum -= inpSum
+    htmlEl.sumEl.innerHTML = `${totalSum}`
 })
